@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #DDF6E5;
+    background-color: #BED4BF;
 }
 
 header{
@@ -23,6 +23,7 @@ header{
 .destaque{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .area-titulo h3{
@@ -37,7 +38,23 @@ header{
     line-height: 50px;
 }
 
+.area-titulo a{
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.534);
+    background-color: #CDD4BE;
+}
+
+.area-titulo a:hover{
+    background-color: #DDF6E5;
+}
+
 .image1 img{
-    width: 350px;
+    width: 460px;
     height: auto;
+    margin-top: 20px;
+    margin-left: 50px;
 }
