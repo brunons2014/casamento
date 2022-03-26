@@ -1,39 +1,43 @@
-@charset "UTF-8";
+@charset "UTF8";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
 
 body{
-    width: 100%;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
     background-color: #DDF6E5;
-    background-image: url(imagens/DSC_4432.jpg) no-repeat;
-    background-size: 100% 100%;
 }
 
-header {
-    width: 100%;
-    height: 100px;
-    position: absolute;
+header{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: left;
+    font-family: 'Hurricane', cursive;
 }
 
-header .logo{
-    width: 200px;
-    height: 100%;
+.logo h1{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 50px;
 }
 
-/*---Main---*/
+.destaque{
+    display: flex;
+    justify-content: center;
+}
 
-#home .conteiner{
-    width: 100%;
-    height: 100vh;
-    background: url(imagens/fotobackground.jpg)no-repeat;
-    background-size: 100% 100%;
-    
+.area-titulo h3{
+    color: white;
+    font-weight: normal;
+    margin-bottom: -40px;
+}
+
+.area-titulo h1{
+    color: white;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.image1 img{
+    width: 350px;
+    height: auto;
 }
